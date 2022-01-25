@@ -1,2 +1,3 @@
-#VB6 Assignments
+#VB6Assignments
+
 Programs in VB6
