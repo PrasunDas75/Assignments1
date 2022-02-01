@@ -9,6 +9,14 @@ Begin VB.Form Form1
    ScaleHeight     =   4995
    ScaleWidth      =   3750
    StartUpPosition =   3  'Windows Default
+   Begin VB.CommandButton Command3 
+      Caption         =   "Contact Book"
+      Height          =   495
+      Left            =   480
+      TabIndex        =   2
+      Top             =   1320
+      Width           =   1215
+   End
    Begin VB.CommandButton Command2 
       Caption         =   "Number Puzzle"
       Height          =   495
@@ -37,4 +45,8 @@ End Sub
 
 Private Sub Command2_Click()
 frmGame.Show
+End Sub
+
+Private Sub Command3_Click()
+Form5.Show
 End Sub
